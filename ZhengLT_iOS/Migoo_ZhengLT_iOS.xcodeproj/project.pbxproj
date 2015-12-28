@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		421253642C4D5C8127744FE4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9669D5C221C55DB8A5B19651 /* libPods.a */; };
+		F2D622F61C31381D0002BBA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D622F51C31381D0002BBA3 /* main.m */; };
+		F2D622F91C31381D0002BBA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D622F81C31381D0002BBA3 /* AppDelegate.m */; };
+		F2D622FC1C31381D0002BBA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D622FB1C31381D0002BBA3 /* ViewController.m */; };
+		F2D622FF1C31381D0002BBA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D622FD1C31381D0002BBA3 /* Main.storyboard */; };
+		F2D623011C31381D0002BBA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2D623001C31381D0002BBA3 /* Assets.xcassets */; };
+		F2D623041C31381D0002BBA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D623021C31381D0002BBA3 /* LaunchScreen.storyboard */; };
+		F2D6230F1C31381D0002BBA3 /* Migoo_ZhengLT_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D6230E1C31381D0002BBA3 /* Migoo_ZhengLT_iOSTests.m */; };
+		F2D6231A1C31381D0002BBA3 /* Migoo_ZhengLT_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D623191C31381D0002BBA3 /* Migoo_ZhengLT_iOSUITests.m */; };
+		F2D6232B1C3138B80002BBA3 /* Controller in Resources */ = {isa = PBXBuildFile; fileRef = F2D623271C3138B80002BBA3 /* Controller */; };
+		F2D6232C1C3138B80002BBA3 /* Model in Resources */ = {isa = PBXBuildFile; fileRef = F2D623281C3138B80002BBA3 /* Model */; };
+		F2D6232D1C3138B80002BBA3 /* Resource in Resources */ = {isa = PBXBuildFile; fileRef = F2D623291C3138B80002BBA3 /* Resource */; };
+		F2D6232E1C3138B80002BBA3 /* View in Resources */ = {isa = PBXBuildFile; fileRef = F2D6232A1C3138B80002BBA3 /* View */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2D6230B1C31381D0002BBA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2D622E91C31381D0002BBA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2D622F01C31381D0002BBA3;
+			remoteInfo = Migoo_ZhengLT_iOS;
+		};
+		F2D623161C31381D0002BBA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2D622E91C31381D0002BBA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2D622F01C31381D0002BBA3;
+			remoteInfo = Migoo_ZhengLT_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D4D9362BAD9B2F8127E682C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		549EC1ECFEA1FBB0AE0D31FD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		9669D5C221C55DB8A5B19651 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2D622F11C31381D0002BBA3 /* Migoo_ZhengLT_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Migoo_ZhengLT_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2D622F51C31381D0002BBA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2D622F71C31381D0002BBA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2D622F81C31381D0002BBA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2D622FA1C31381D0002BBA3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F2D622FB1C31381D0002BBA3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F2D622FE1C31381D0002BBA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2D623001C31381D0002BBA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2D623031C31381D0002BBA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2D623051C31381D0002BBA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2D6230A1C31381D0002BBA3 /* Migoo_ZhengLT_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Migoo_ZhengLT_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2D6230E1C31381D0002BBA3 /* Migoo_ZhengLT_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Migoo_ZhengLT_iOSTests.m; sourceTree = "<group>"; };
+		F2D623101C31381D0002BBA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2D623151C31381D0002BBA3 /* Migoo_ZhengLT_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Migoo_ZhengLT_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2D623191C31381D0002BBA3 /* Migoo_ZhengLT_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Migoo_ZhengLT_iOSUITests.m; sourceTree = "<group>"; };
+		F2D6231B1C31381D0002BBA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2D623271C3138B80002BBA3 /* Controller */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Controller; sourceTree = "<group>"; };
+		F2D623281C3138B80002BBA3 /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
+		F2D623291C3138B80002BBA3 /* Resource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resource; sourceTree = "<group>"; };
+		F2D6232A1C3138B80002BBA3 /* View */ = {isa = PBXFileReference; lastKnownFileType = folder; path = View; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2D622EE1C31381D0002BBA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421253642C4D5C8127744FE4 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2D623071C31381D0002BBA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2D623121C31381D0002BBA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3629BEEC34691E6C89F6B604 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				549EC1ECFEA1FBB0AE0D31FD /* Pods.debug.xcconfig */,
+				4D4D9362BAD9B2F8127E682C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		735407568D886229B33987D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9669D5C221C55DB8A5B19651 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2D622E81C31381D0002BBA3 = {
+			isa = PBXGroup;
+			children = (
+				F2D622F31C31381D0002BBA3 /* Migoo_ZhengLT_iOS */,
+				F2D6230D1C31381D0002BBA3 /* Migoo_ZhengLT_iOSTests */,
+				F2D623181C31381D0002BBA3 /* Migoo_ZhengLT_iOSUITests */,
+				F2D622F21C31381D0002BBA3 /* Products */,
+				3629BEEC34691E6C89F6B604 /* Pods */,
+				735407568D886229B33987D2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F2D622F21C31381D0002BBA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2D622F11C31381D0002BBA3 /* Migoo_ZhengLT_iOS.app */,
+				F2D6230A1C31381D0002BBA3 /* Migoo_ZhengLT_iOSTests.xctest */,
+				F2D623151C31381D0002BBA3 /* Migoo_ZhengLT_iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2D622F31C31381D0002BBA3 /* Migoo_ZhengLT_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F2D623281C3138B80002BBA3 /* Model */,
+				F2D6232A1C3138B80002BBA3 /* View */,
+				F2D623271C3138B80002BBA3 /* Controller */,
+				F2D623291C3138B80002BBA3 /* Resource */,
+				F2D622F71C31381D0002BBA3 /* AppDelegate.h */,
+				F2D622F81C31381D0002BBA3 /* AppDelegate.m */,
+				F2D622FA1C31381D0002BBA3 /* ViewController.h */,
+				F2D622FB1C31381D0002BBA3 /* ViewController.m */,
+				F2D622FD1C31381D0002BBA3 /* Main.storyboard */,
+				F2D623001C31381D0002BBA3 /* Assets.xcassets */,
+				F2D623021C31381D0002BBA3 /* LaunchScreen.storyboard */,
+				F2D623051C31381D0002BBA3 /* Info.plist */,
+				F2D622F41C31381D0002BBA3 /* Supporting Files */,
+			);
+			path = Migoo_ZhengLT_iOS;
+			sourceTree = "<group>";
+		};
+		F2D622F41C31381D0002BBA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2D622F51C31381D0002BBA3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2D6230D1C31381D0002BBA3 /* Migoo_ZhengLT_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2D6230E1C31381D0002BBA3 /* Migoo_ZhengLT_iOSTests.m */,
+				F2D623101C31381D0002BBA3 /* Info.plist */,
+			);
+			path = Migoo_ZhengLT_iOSTests;
+			sourceTree = "<group>";
+		};
+		F2D623181C31381D0002BBA3 /* Migoo_ZhengLT_iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2D623191C31381D0002BBA3 /* Migoo_ZhengLT_iOSUITests.m */,
+				F2D6231B1C31381D0002BBA3 /* Info.plist */,
+			);
+			path = Migoo_ZhengLT_iOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2D622F01C31381D0002BBA3 /* Migoo_ZhengLT_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2D6231E1C31381D0002BBA3 /* Build configuration list for PBXNativeTarget "Migoo_ZhengLT_iOS" */;
+			buildPhases = (
+				E578BD6391B3E0E51F35A0F1 /* Check Pods Manifest.lock */,
+				F2D622ED1C31381D0002BBA3 /* Sources */,
+				F2D622EE1C31381D0002BBA3 /* Frameworks */,
+				F2D622EF1C31381D0002BBA3 /* Resources */,
+				2A7C861FD3FC0589C51C8267 /* Embed Pods Frameworks */,
+				922AF87227999B4378AD59A4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Migoo_ZhengLT_iOS;
+			productName = Migoo_ZhengLT_iOS;
+			productReference = F2D622F11C31381D0002BBA3 /* Migoo_ZhengLT_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2D623091C31381D0002BBA3 /* Migoo_ZhengLT_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2D623211C31381D0002BBA3 /* Build configuration list for PBXNativeTarget "Migoo_ZhengLT_iOSTests" */;
+			buildPhases = (
+				F2D623061C31381D0002BBA3 /* Sources */,
+				F2D623071C31381D0002BBA3 /* Frameworks */,
+				F2D623081C31381D0002BBA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2D6230C1C31381D0002BBA3 /* PBXTargetDependency */,
+			);
+			name = Migoo_ZhengLT_iOSTests;
+			productName = Migoo_ZhengLT_iOSTests;
+			productReference = F2D6230A1C31381D0002BBA3 /* Migoo_ZhengLT_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2D623141C31381D0002BBA3 /* Migoo_ZhengLT_iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2D623241C31381D0002BBA3 /* Build configuration list for PBXNativeTarget "Migoo_ZhengLT_iOSUITests" */;
+			buildPhases = (
+				F2D623111C31381D0002BBA3 /* Sources */,
+				F2D623121C31381D0002BBA3 /* Frameworks */,
+				F2D623131C31381D0002BBA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2D623171C31381D0002BBA3 /* PBXTargetDependency */,
+			);
+			name = Migoo_ZhengLT_iOSUITests;
+			productName = Migoo_ZhengLT_iOSUITests;
+			productReference = F2D623151C31381D0002BBA3 /* Migoo_ZhengLT_iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2D622E91C31381D0002BBA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Migoo Tech";
+				TargetAttributes = {
+					F2D622F01C31381D0002BBA3 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F2D623091C31381D0002BBA3 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F2D622F01C31381D0002BBA3;
+					};
+					F2D623141C31381D0002BBA3 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F2D622F01C31381D0002BBA3;
+					};
+				};
+			};
+			buildConfigurationList = F2D622EC1C31381D0002BBA3 /* Build configuration list for PBXProject "Migoo_ZhengLT_iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2D622E81C31381D0002BBA3;
+			productRefGroup = F2D622F21C31381D0002BBA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2D622F01C31381D0002BBA3 /* Migoo_ZhengLT_iOS */,
+				F2D623091C31381D0002BBA3 /* Migoo_ZhengLT_iOSTests */,
+				F2D623141C31381D0002BBA3 /* Migoo_ZhengLT_iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2D622EF1C31381D0002BBA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D6232D1C3138B80002BBA3 /* Resource in Resources */,
+				F2D6232E1C3138B80002BBA3 /* View in Resources */,
+				F2D6232C1C3138B80002BBA3 /* Model in Resources */,
+				F2D623041C31381D0002BBA3 /* LaunchScreen.storyboard in Resources */,
+				F2D623011C31381D0002BBA3 /* Assets.xcassets in Resources */,
+				F2D6232B1C3138B80002BBA3 /* Controller in Resources */,
+				F2D622FF1C31381D0002BBA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2D623081C31381D0002BBA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2D623131C31381D0002BBA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A7C861FD3FC0589C51C8267 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		922AF87227999B4378AD59A4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E578BD6391B3E0E51F35A0F1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2D622ED1C31381D0002BBA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D622FC1C31381D0002BBA3 /* ViewController.m in Sources */,
+				F2D622F91C31381D0002BBA3 /* AppDelegate.m in Sources */,
+				F2D622F61C31381D0002BBA3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2D623061C31381D0002BBA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D6230F1C31381D0002BBA3 /* Migoo_ZhengLT_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2D623111C31381D0002BBA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D6231A1C31381D0002BBA3 /* Migoo_ZhengLT_iOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2D6230C1C31381D0002BBA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2D622F01C31381D0002BBA3 /* Migoo_ZhengLT_iOS */;
+			targetProxy = F2D6230B1C31381D0002BBA3 /* PBXContainerItemProxy */;
+		};
+		F2D623171C31381D0002BBA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2D622F01C31381D0002BBA3 /* Migoo_ZhengLT_iOS */;
+			targetProxy = F2D623161C31381D0002BBA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2D622FD1C31381D0002BBA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2D622FE1C31381D0002BBA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2D623021C31381D0002BBA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2D623031C31381D0002BBA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2D6231C1C31381D0002BBA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2D6231D1C31381D0002BBA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2D6231F1C31381D0002BBA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 549EC1ECFEA1FBB0AE0D31FD /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Migoo_ZhengLT_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Migoo.Migoo-ZhengLT-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F2D623201C31381D0002BBA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D4D9362BAD9B2F8127E682C /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Migoo_ZhengLT_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Migoo.Migoo-ZhengLT-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F2D623221C31381D0002BBA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Migoo_ZhengLT_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Migoo.Migoo-ZhengLT-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Migoo_ZhengLT_iOS.app/Migoo_ZhengLT_iOS";
+			};
+			name = Debug;
+		};
+		F2D623231C31381D0002BBA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Migoo_ZhengLT_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Migoo.Migoo-ZhengLT-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Migoo_ZhengLT_iOS.app/Migoo_ZhengLT_iOS";
+			};
+			name = Release;
+		};
+		F2D623251C31381D0002BBA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Migoo_ZhengLT_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Migoo.Migoo-ZhengLT-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Migoo_ZhengLT_iOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F2D623261C31381D0002BBA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Migoo_ZhengLT_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Migoo.Migoo-ZhengLT-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Migoo_ZhengLT_iOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2D622EC1C31381D0002BBA3 /* Build configuration list for PBXProject "Migoo_ZhengLT_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2D6231C1C31381D0002BBA3 /* Debug */,
+				F2D6231D1C31381D0002BBA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2D6231E1C31381D0002BBA3 /* Build configuration list for PBXNativeTarget "Migoo_ZhengLT_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2D6231F1C31381D0002BBA3 /* Debug */,
+				F2D623201C31381D0002BBA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2D623211C31381D0002BBA3 /* Build configuration list for PBXNativeTarget "Migoo_ZhengLT_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2D623221C31381D0002BBA3 /* Debug */,
+				F2D623231C31381D0002BBA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2D623241C31381D0002BBA3 /* Build configuration list for PBXNativeTarget "Migoo_ZhengLT_iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2D623251C31381D0002BBA3 /* Debug */,
+				F2D623261C31381D0002BBA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2D622E91C31381D0002BBA3 /* Project object */;
+}
