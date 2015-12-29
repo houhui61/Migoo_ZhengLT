@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		421253642C4D5C8127744FE4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9669D5C221C55DB8A5B19651 /* libPods.a */; };
+		7807296A1C314F4C00CBA309 /* aaa in Resources */ = {isa = PBXBuildFile; fileRef = 780729691C314F4C00CBA309 /* aaa */; };
 		F2D622F61C31381D0002BBA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D622F51C31381D0002BBA3 /* main.m */; };
 		F2D622F91C31381D0002BBA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D622F81C31381D0002BBA3 /* AppDelegate.m */; };
 		F2D622FC1C31381D0002BBA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D622FB1C31381D0002BBA3 /* ViewController.m */; };
@@ -42,6 +43,7 @@
 /* Begin PBXFileReference section */
 		4D4D9362BAD9B2F8127E682C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		549EC1ECFEA1FBB0AE0D31FD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		780729691C314F4C00CBA309 /* aaa */ = {isa = PBXFileReference; lastKnownFileType = folder; path = aaa; sourceTree = "<group>"; };
 		9669D5C221C55DB8A5B19651 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2D622F11C31381D0002BBA3 /* Migoo_ZhengLT_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Migoo_ZhengLT_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2D622F51C31381D0002BBA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 		F2D622E81C31381D0002BBA3 = {
 			isa = PBXGroup;
 			children = (
+				780729691C314F4C00CBA309 /* aaa */,
 				F2D622F31C31381D0002BBA3 /* Migoo_ZhengLT_iOS */,
 				F2D6230D1C31381D0002BBA3 /* Migoo_ZhengLT_iOSTests */,
 				F2D623181C31381D0002BBA3 /* Migoo_ZhengLT_iOSUITests */,
@@ -288,6 +291,7 @@
 				F2D623041C31381D0002BBA3 /* LaunchScreen.storyboard in Resources */,
 				F2D623011C31381D0002BBA3 /* Assets.xcassets in Resources */,
 				F2D6232B1C3138B80002BBA3 /* Controller in Resources */,
+				7807296A1C314F4C00CBA309 /* aaa in Resources */,
 				F2D622FF1C31381D0002BBA3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
